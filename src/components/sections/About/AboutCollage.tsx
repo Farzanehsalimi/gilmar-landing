@@ -59,20 +59,6 @@ export default function AboutCollage() {
         sizes="(max-width: 1200px) 100vw, 665px"
         style={{ objectFit: 'contain' }}
       />
-
-      {/* موقعیت‌ها درصدی‌اند تا با عکس مقیاس شوند.
-          TODO(figma): offset چیپ را نسبت به فریم کلاژ اندازه بگیر و بر ۶۶۵ (افقی) یا ۷۴۵ (عمودی) تقسیم کن.
-          insetInlineEnd در RTL یعنی فاصله از چپ. */}
-      {/* <CollageChip
-        label="اقامتگاه بوم‌گردی گیلمار"
-        icon={<img src="/icons/chip-lodge.svg" alt="" width={24} height={24} />}
-        sx={{ top: '23%', insetInlineEnd: '0%' }}
-      />
-      <CollageChip
-        label="تجربه اقامت اصیل شمال"
-        icon={<img src="/icons/chip-star.svg" alt="" width={24} height={24} />}
-        sx={{ top: '61%', insetInlineEnd: '35%' }}
-      /> */}
     </Box>
   );
 }

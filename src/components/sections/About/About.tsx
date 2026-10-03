@@ -4,6 +4,7 @@ import { Box, Container } from '@mui/material';
 import ArrowButton from '@/components/ui/ArrowButton';
 import SectionHeader from '@/components/ui/SectionHeader';
 import AboutCollage from './AboutCollage';
+import Icon from '@/components/ui/Icon';
 
 export default function About() {
   return (
@@ -29,7 +30,7 @@ export default function About() {
           pointerEvents: 'none',
         }}
       >
-        <Image src="images/decor/grid-lines.svg" alt="" width={670} height={394} />
+        <Icon name="globe" size={22} />
       </Box>
 
       <Container sx={{ position: 'relative', zIndex: 1 }}>
