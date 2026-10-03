@@ -26,7 +26,7 @@ export default function HeroShowcase() {
         }}
       >
         <Image
-          src="/images/hero/hero-main.png"
+          src="/images/hero/hero-main.webp"
           alt="نمای ساختمان اقامتگاه بوم‌گردی گیلمار"
           fill
           priority
@@ -128,9 +128,9 @@ export default function HeroShowcase() {
             },
           }}
         >
-          <Avatar alt="User 1" src="/images/avatars/avatar-1.png" />
-          <Avatar alt="User 2" src="/images/avatars/avatar-2.png" />
-          <Avatar alt="User 3" src="/images/avatars/avatar-3.png" />
+          <Avatar alt="User 1" src="/images/avatars/avatar-1.webp" />
+          <Avatar alt="User 2" src="/images/avatars/avatar-2.webp" />
+          <Avatar alt="User 3" src="/images/avatars/avatar-3.webp" />
         </AvatarGroup>
       </Paper>
     </Box>
