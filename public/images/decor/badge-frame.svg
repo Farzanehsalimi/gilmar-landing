@@ -1,0 +1,29 @@
+<svg width="92" height="60" viewBox="0 0 92 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_484_370)">
+<g clip-path="url(#clip0_484_370)">
+<line x1="4.24649" y1="29.569" x2="21.2465" y2="19.569" stroke="#B8F3C4"/>
+<line x1="4.5" y1="29.5" x2="20.5" y2="29.5" stroke="#B8F3C4"/>
+<line x1="4.77163" y1="29.5802" x2="21.7716" y2="40.5802" stroke="#B8F3C4"/>
+<line y1="-0.5" x2="19.7231" y2="-0.5" transform="matrix(-0.861934 -0.50702 -0.50702 0.861934 88.5 30)" stroke="#B8F3C4"/>
+<line y1="-0.5" x2="16" y2="-0.5" transform="matrix(-1 0 0 1 88.5 30)" stroke="#B8F3C4"/>
+<line y1="-0.5" x2="20.2485" y2="-0.5" transform="matrix(-0.83957 0.543251 0.543251 0.83957 88.5 30)" stroke="#B8F3C4"/>
+<path d="M46.5 -2.5C61.2276 -2.5 73 12.1528 73 30C73 47.8472 61.2276 62.5 46.5 62.5C31.7724 62.5 20 47.8472 20 30C20 12.1528 31.7724 -2.5 46.5 -2.5Z" stroke="#B8F3C4"/>
+</g>
+<rect x="4.5" y="4.5" width="83" height="51" rx="25.5" stroke="#B8F3C4" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_484_370" x="0" y="0" width="92" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_484_370"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_484_370"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_484_370" result="shape"/>
+</filter>
+<clipPath id="clip0_484_370">
+<rect x="4" y="4" width="84" height="52" rx="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
