@@ -4,6 +4,7 @@ import { Box, Container } from '@mui/material';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { VALUES } from '@/constants/values';
 import ValueCard from './ValueCard';
+import Icon from '@/components/ui/Icon';
 
 /** لایه‌های دکوراتیو پشت محتوا. موقعیت‌ها را از Figma دقیق کن. */
 function DecorLayers() {
@@ -53,7 +54,7 @@ export default function Values() {
 
       <Container sx={{ position: 'relative', zIndex: 1 }}>
         <SectionHeader
-          icon={<Image src="/icons/bolt.svg" alt="" width={22} height={22} />}
+          icon={<Icon name="bolt" size={22} />}
           title="همراهی برای حفظ آرامش و طبیعت گیلمار"
           description="برای حفظ آرامش، نظم و تجربه‌ای دلنشین برای همه مهمانان، لطفاً قوانین اقامتگاه گیلمار را پیش از رزرو مطالعه و رعایت فرمایید."
         />
