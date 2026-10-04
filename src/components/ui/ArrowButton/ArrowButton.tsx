@@ -2,7 +2,7 @@
 'use client';
 
 import { Box, Button, type ButtonProps } from '@mui/material';
-import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
+import Icon from '@/components/ui/Icon';
 
 interface ArrowButtonProps extends Omit<ButtonProps, 'variant' | 'endIcon'> {
   href?: string;
@@ -22,12 +22,11 @@ export default function ArrowButton({ children, sx, ...rest }: ArrowButtonProps)
             height: { xs: 32, sm: 36, md: 40 },
             borderRadius: '50%',
             bgcolor: 'common.white',
-            color: 'primary.main',
             ml: { xs: 0.5, md: 1 },
             mr: -2,
           }}
         >
-          <ArrowBackRoundedIcon sx={{ fontSize: 22 }} />
+          <Icon name="arrow-left" size={22} color="primary.main" />
         </Box>
       }
       sx={[
