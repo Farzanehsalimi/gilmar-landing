@@ -34,7 +34,7 @@ export default function SectionHeader({
         variant="h2"
         sx={{
           mt: 2,
-          fontSize: { xs: 24, md: 32 }, // TODO(figma)
+          fontSize: { xs: 24, md: 26 }, // TODO(figma)
           fontWeight: 800,
           lineHeight: 1.5,
           color: 'text.primary',
