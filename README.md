@@ -4,7 +4,7 @@
 
 Landing page built with **Next.js 15 (App Router)**, **TypeScript** and **MUI v7** (RTL).
 
-![Preview](docs/preview.png)
+![Preview](docs/preview.jpg)
 
 ## Run
 
