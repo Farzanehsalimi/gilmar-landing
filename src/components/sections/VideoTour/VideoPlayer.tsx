@@ -58,7 +58,12 @@ export default function VideoPlayer() {
             bgcolor: 'common.white',
           }}
         >
-          <Icon name="play-icon" size={{ xs: 18, md: 28 }} color="primary.main" />
+          <Icon
+            name="play-icon"
+            size={28}
+            color="primary.main"
+            sx={{ width: { xs: 18, md: 28 }, height: { xs: 18, md: 28 } }}
+          />
         </Box>
       </ButtonBase>
 
@@ -74,7 +79,12 @@ export default function VideoPlayer() {
           pointerEvents: 'none',
         }}
       >
-        <Image src="/images/video/compass.webp" alt="" fill sizes={{ xs: '50px', md: '200px' }} />
+        <Image
+          src="/images/video/compass.webp"
+          alt=""
+          fill
+          sizes="(max-width: 900px) 50px, 200px"
+        />
       </Box>
 
       <Dialog
