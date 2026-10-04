@@ -19,20 +19,6 @@ export default function About() {
         bgcolor: 'background.default',
       }}
     >
-      {/* خطوط شبکه‌ای پشت متن (سمت راست در RTL = insetInlineStart) */}
-      <Box
-        aria-hidden
-        sx={{
-          position: 'absolute',
-          top: 40, // TODO(figma)
-          insetInlineStart: 0,
-          display: { xs: 'none', lg: 'block' },
-          pointerEvents: 'none',
-        }}
-      >
-        <Icon name="globe" size={22} />
-      </Box>
-
       <Container sx={{ position: 'relative', zIndex: 1 }}>
         <Box
           sx={{
